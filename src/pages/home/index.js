@@ -19,7 +19,7 @@ const Home = () => {
             you engage in genuine discussion and exploration.
           </p>
 
-          <Button bg="blue" color="white">
+          <Button bg="#175676" color="#FFFFFF">
             Get Started for Free
           </Button>
         </div>
