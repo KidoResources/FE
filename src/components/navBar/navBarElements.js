@@ -75,3 +75,10 @@ text-decoration: none;
 }
 `;
 
+export const LogoButton = styled.link`
+height: 40px;
+outline: none;
+border: none;
+cursor: pointer;
+transition: all 0.2s ease-in-out;
+`

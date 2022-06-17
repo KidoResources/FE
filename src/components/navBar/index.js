@@ -1,4 +1,6 @@
 import React from "react";
+// import {ReactComponent as Logo} from './images/small.png'
+// import Logo from './images/small.png'
 import {
   Nav,
   NavLink,
@@ -6,6 +8,7 @@ import {
   NavMenu,
   NavBtn,
   NavBtnLink,
+  // LogoButton,
 } from "./navBarElements";
 
 const Navbar = () => {
@@ -13,8 +16,14 @@ const Navbar = () => {
     <>
       <Nav>
         <Bars />
-
+        {/* <LogoButton to='/'>
+          <img src={Logo} alt='Logo of KIDO Resources'/>
+        </LogoButton>  */}
+        <NavLink to="/" activeStyle> {/*Temp Fix - Logo of KIDO goes here */}
+            KIDO RESOURCES
+        </NavLink>
         <NavMenu>
+        
           <NavLink to="/about" activeStyle>
             About
           </NavLink>
