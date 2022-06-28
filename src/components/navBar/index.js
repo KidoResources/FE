@@ -17,7 +17,7 @@ const Navbar = () => {
       <Nav>
         <Bars />
         {/* <LogoButton to='/'>
-          <img src={Logo} alt='Logo of KIDO Resources'/>
+          <img src={'./images/small.png'} alt='Logo of KIDO Resources'/>
         </LogoButton>  */}
         <NavLink to="/" activeStyle> {/*Temp Fix - Logo of KIDO goes here */}
             KIDO RESOURCES
@@ -36,9 +36,9 @@ const Navbar = () => {
           <NavLink to="/Discover" activeStyle>
             Discover
           </NavLink>
-          <NavLink to="/community" activeStyle>
+          {/* <NavLink to="/community" activeStyle>
             Community
-          </NavLink>
+          </NavLink> */}
           <NavLink to="/sign-up" activeStyle>
             Sign Up
           </NavLink>
