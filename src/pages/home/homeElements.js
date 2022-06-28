@@ -5,7 +5,7 @@ export const Button = styled.button`
     border: none;
     cursor: pointer;
     font-size: 16px;
-    background-color:${({bg}) => bg || 'black'};;
+    background-color:${({bg}) => bg || 'black'};
     color: ${({color}) => color || 'orange'};
     padding: 12px 50px;
 
@@ -46,7 +46,7 @@ export const Container= styled.div`
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 1000px;
+    width: 80%;
     max-width: 100%;
     padding: 0 20px;
     margin: 0 auto;
@@ -67,7 +67,7 @@ export const StyledCard = styled.div`
     flex: 30;
   }
 
-  @media (max-width:375px}) {
+  @media (max-width:375px) {
     flex-direction: column;
   }
 `
