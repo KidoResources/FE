@@ -11,8 +11,8 @@ import {
 function Card(props) {
   return (
     <>
-      <Wrapper bg={props.bg}>
-        <SCard color={props.color}>
+      <Wrapper Wrapper_bg={props.Wrapper_bg}> 
+        <SCard Card_bg={props.Card_bg}>
           <SCardTitle>{props.title}</SCardTitle>
           <SCardBody>{props.body}</SCardBody>
           <SCardImage src={props.img} alt={props.alt} />

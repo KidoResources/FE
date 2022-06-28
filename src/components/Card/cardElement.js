@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  background-color: ${({ bg }) => bg || "black"};
+  background-color: ${({ Wrapper_bg }) => Wrapper_bg || "black"};
   display: flex;
   align-items: center;
   justify-content: center;
@@ -13,7 +13,7 @@ export const Wrapper = styled.div`
   }
 `;
 export const SCard = styled.div`
-  background-color: ${({ color }) => color || "yellow"};
+  background-color: ${({ Card_bg }) => Card_bg || "yellow"};
   padding: 30px;
   display: flex;
   flex-direction: column;
