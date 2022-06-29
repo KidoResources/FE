@@ -8,7 +8,7 @@ import Events from "./pages/events/index";
 import AnnualReport from "./pages/annual";
 import Teams from "./pages/team";
 import Blogs from "./pages/blogs";
-import SignUp from "./pages/signup";
+import SignUp from "./pages/signup/index.js";
 
 function App() {
   return (
