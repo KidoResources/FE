@@ -23,7 +23,7 @@ function SignUp() {
   return (
     <>
       <Flex>
-        {/* <SignupImage src={props.img} alt={props.alt}/> */}
+        {/* <SignupImage src='./images/Pattern' alt='Image with patterns of Circle and Crosses '/> */}
         <SignupWrapper>
           <h1> Sign Up</h1>
 
