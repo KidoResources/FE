@@ -1,5 +1,13 @@
 import React, { useState } from "react";
-import { Flex, SignupWrapper, Form, Input, Button } from "./signupElements";
+import {
+  Flex,
+  SignupWrapper,
+  Form,
+  Input,
+  Button,
+  SignupImage,
+} from "./signupElements";
+import SignupPic from "./images/signpad.png";
 
 function SignUp() {
   const [formFields, setFormFields] = useState({
@@ -23,7 +31,6 @@ function SignUp() {
   return (
     <>
       <Flex>
-        {/* <SignupImage src='./images/Pattern' alt='Image with patterns of Circle and Crosses '/> */}
         <SignupWrapper>
           <h1> Sign Up</h1>
 
@@ -63,7 +70,9 @@ function SignUp() {
               name="password"
               placeholder="Create password"
             />
-            <Button onClick={handleClick}>Create Account</Button>
+            <Button bg="#175676" color="#FFFFFF" onClick={handleClick}>
+              Create Account
+            </Button>
           </Form>
         </SignupWrapper>
       </Flex>

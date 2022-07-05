@@ -2,8 +2,10 @@ import styled from "styled-components";
 
 export const Flex = styled.div`
   display: flex;
-  justify-content: center; 
-  
+  justify-content: center;
+  flex-flow: row;
+  height: 92vh;
+  padding: 5%;
 `;
 
 export const SignupWrapper = styled.div`
@@ -11,32 +13,43 @@ export const SignupWrapper = styled.div`
   flex-flow: column;
   justify-content: center;
   height: 100%;
-  width: 50%;
+  width: 65%;
   align-items: center;
   border-radius: 15px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 10px rgb(86,88,87);
+  background-color: #E0E0E1;
 `;
 
 export const Form = styled.form`
   display: flex;
-  min-width: 350px;
+  align-items: center;
+ width: 69%;
   flex-direction: column;
+  margin-bottom: 5%;
 `;
 
 export const Input = styled.input`
-  margin-bottom: 2%;
-  padding: 2%;
+width: 100%;
+  margin-bottom: 5%;
+  padding: 5%;
 `;
 
 export const Button = styled.button`
-  padding: 2%;
-  border-radius: 10px;
-  margin-top: 4%;
-  background-color: #f5853f;
+  border-radius: 50px;
+  border: none;
   cursor: pointer;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  background-color: ${({ bg }) => bg || "black"};
+  color: ${({ color }) => color || "orange"};
+  padding: 12px 50px;
 
   &:hover {
-    background-color: #008dd5;
+    opacity: 0.9;
+    transform: scale(1.1);
   }
 `;
+
+export const SignupImage = styled.image`
+  max-width: 100%;
+  height: auto;
+`
