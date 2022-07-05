@@ -33,7 +33,7 @@ function SignUp() {
       <Flex>
         <SignupImage
           src={SignupPic}
-          alt="Image with patterns of Circle and Crosses "
+          alt="Image with patterns of Circle and Crosses!"
         />
         <SignupWrapper>
           <h1> Sign Up</h1>
