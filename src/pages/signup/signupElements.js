@@ -23,11 +23,9 @@ export const SignupWrapper = styled.div`
 export const Form = styled.form`
   display: flex;
   align-items: center;
-  /* min-width: 350px; */
  width: 69%;
   flex-direction: column;
   margin-bottom: 5%;
-  /* background-color: #E0E0E1; */
 `;
 
 export const Input = styled.input`
