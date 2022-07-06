@@ -3,12 +3,11 @@ import styled from "styled-components";
 export const Flex = styled.div`
   display: flex;
   justify-content: center;
-  flex-flow: row;
-  height: 92vh;
-  padding: 5%;
+  height: 90vh;
+flex-direction: row;
 `;
 
-export const SignupWrapper = styled.div`
+export const LoginWarpper = styled.div`
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -49,7 +48,8 @@ export const Button = styled.button`
   }
 `;
 
-export const SignupImage = styled.image`
-  max-width: 100%;
-  height: auto;
+export const Image = styled.image`
+  width: 50%;
+  border: dotted;
 `;
+
