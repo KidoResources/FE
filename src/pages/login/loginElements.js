@@ -4,7 +4,7 @@ export const Flex = styled.div`
   display: flex;
   justify-content: center;
   height: 90vh;
-flex-direction: row;
+  flex-direction: row;
 `;
 
 export const LoginWarpper = styled.div`
@@ -12,7 +12,7 @@ export const LoginWarpper = styled.div`
   flex-flow: column;
   justify-content: center;
   height: 100%;
-  width: 65%;
+  width:50%;
   align-items: center;
   border-radius: 15px;
   box-shadow: 0 0 10px rgb(86, 88, 87);
@@ -52,4 +52,3 @@ export const Image = styled.image`
   width: 50%;
   border: dotted;
 `;
-
